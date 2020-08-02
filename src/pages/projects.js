@@ -9,7 +9,7 @@ export const query = graphql`
     allAirtable(filter: { table: { eq: "Projects" } }) {
       nodes {
         data {
-          level
+          student_level
           project_title
           student_name
           student_year
