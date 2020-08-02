@@ -22,6 +22,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -34,6 +35,19 @@ module.exports = {
             family: `Montserrat`,
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `AMPD Lab`,
+        short_name: `AMPD`,
+        description: `Showcase for the research being performed at AMPD Lab.`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#ff009c`,
+        display: `standalone`,
+        icon: `src/images/ampd-icon.png`,
       },
     },
     {

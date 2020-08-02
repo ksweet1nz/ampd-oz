@@ -10,7 +10,7 @@ const NavBar = () => {
         <ul className="nav-links">
           <Link to="#">
             <li className="logo">
-              <img src={logo} />
+              <img src={logo} alt="AMPD Lab" />
             </li>
           </Link>
           <Link to="#">
