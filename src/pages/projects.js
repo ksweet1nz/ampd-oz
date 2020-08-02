@@ -13,6 +13,7 @@ export const query = graphql`
           project_title
           student_name
           student_year
+          slug
           image {
             localFiles {
               childImageSharp {
@@ -37,13 +38,22 @@ const Projects = () => {
       <Wrapper>
         {projects.map(project => {
           const {
-            data: { image, project_title, student_name, level, student_year },
+            data: {
+              image,
+              project_title,
+              student_name,
+              level,
+              student_year,
+              slug,
+            },
           } = project
           const fluid = image.localFiles[0].childImageSharp.fluid
 
           return (
             <div className="content">
-              <Image fluid={fluid} className="img" />
+              <Link to={`/projects/${slug}`}>
+                <Image fluid={fluid} className="img" />
+              </Link>
               <div className="info">
                 <h1>{project_title}</h1>
               </div>
