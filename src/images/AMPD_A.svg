@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 289.82 239.64"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="AMPD_A.svg"
+   inkscape:version="1.0rc1 (09960d6f05, 2020-04-09)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>FavIco</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1882"
+     inkscape:window-height="1580"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="1.0849608"
+     inkscape:cx="-39.889304"
+     inkscape:cy="119.82"
+     inkscape:window-x="4990"
+     inkscape:window-y="192"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_2" />
+  <title
+     id="title2">FavIco</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2">
+    <g
+       id="Layer_1-2"
+       data-name="Layer 1"
+       style="fill:#f9f9f9;fill-opacity:1">
+      <path
+         d="M289.82,182.54,282.9,234a118.41,118.41,0,0,1-36.77,5.62q-25.09,0-41.31-10A50.89,50.89,0,0,1,182.54,202q-30.72,37.63-82.19,37.63A102.74,102.74,0,0,1,50.18,227.1,93.49,93.49,0,0,1,13.63,191Q0,167.41,0,135.39,0,96.9,17.08,66a126.27,126.27,0,0,1,46.5-48.45Q93,0,128.47,0q53.63,0,75.7,35l6.05-31.58H277.7l-30.28,151a40.7,40.7,0,0,0-.87,9.52q0,11.25,6.27,16.65T270.35,186Q282,186,289.82,182.54Zm-133.23-8.43a65.82,65.82,0,0,0,24.22-27q8.65-17.3,8.65-39.8,0-23.78-14.06-37.63T136.26,55.8q-19.9,0-35.47,9.73a65.82,65.82,0,0,0-24.23,27q-8.66,17.31-8.65,39.8Q67.91,156.16,82,170t39.14,13.84Q141,183.84,156.59,174.11Z"
+         id="path4"
+         style="fill:#f9f9f9;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

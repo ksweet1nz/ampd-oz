@@ -39,7 +39,7 @@ const Wrapper = styled.section`
     display: grid;
     margin-top: -7rem;
     min-height: 100vh;
-    opacity: 0.7;
+    opacity: 0.5;
     place-items: center;
   }
 `

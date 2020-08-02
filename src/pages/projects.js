@@ -38,14 +38,7 @@ const Projects = () => {
       <Wrapper>
         {projects.map(project => {
           const {
-            data: {
-              image,
-              project_title,
-              student_name,
-              level,
-              student_year,
-              slug,
-            },
+            data: { image, project_title, slug },
           } = project
           const fluid = image.localFiles[0].childImageSharp.fluid
 
@@ -55,7 +48,9 @@ const Projects = () => {
                 <Image fluid={fluid} className="img" />
               </Link>
               <div className="info">
-                <h1>{project_title}</h1>
+                <div className="title-info">
+                  <h1>{project_title}</h1>
+                </div>
               </div>
             </div>
           )
@@ -68,29 +63,50 @@ const Projects = () => {
 const Wrapper = styled.div`
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 4rem auto;
+  grid-template-columns: 1fr;
+  margin: 8rem auto;
   width: 80vw;
 
   .content {
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    &:hover .img {
-      opacity: 0.2;
-    }
+
     &:hover .info {
+      opacity: 1;
+    }
+    &:hover .title-info {
       opacity: 1;
     }
   }
 
   .info {
+    background-color: var(--clr-primary-1);
+    font-size: 0.4rem;
+    height: 100%;
+    left: 0;
+    opacity: 0;
     position: absolute;
+    text-transform: uppercase;
+    transition: 0.7s ease;
+    top: 0;
+    width: 100%;
+  }
+
+  .title-info {
     font-size: 0.5rem;
     left: 50%;
     opacity: 0;
-    text-transform: uppercase;
+    position: absolute;
     top: 50%;
+  }
+
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 `
 
